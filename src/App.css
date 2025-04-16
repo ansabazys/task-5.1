@@ -1,0 +1,75 @@
+.container  {
+    background-color: rgb(236, 234, 234);
+    padding: .5rem;
+    max-width: 350px;
+    border-radius: 10px;
+}
+
+.sub-container {
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap:  .5rem;
+    border-radius: 5px;
+}
+
+.title {
+    display: grid;
+    gap: 1rem;
+}
+
+.title h1 {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: -2px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-size: smaller;
+    margin-left: .2rem;
+}
+
+.input-group input, select, button {
+    border: 1px solid gray;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: .5rem;
+}
+
+
+
+.input-group .field {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    height: 20px;
+}
+
+.field .field-items {
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+}
+.selection {
+    display: flex;
+    flex-direction: column;
+}
+
+.selection label {
+    font-size: smaller;
+}
+
+button {
+    margin-top: .5rem;
+}
+
+.danger {
+    color: red;
+    font-size: small;
+}

@@ -1,1 +1,1 @@
-# task-5.1
+Implementaion of form and design. made all inputs as components and passes data as props
